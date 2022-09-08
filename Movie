@@ -1,0 +1,59 @@
+package Movie;
+
+public class Movie {
+ private String nam;
+ private int rell;
+ private String dir;
+ private String lead;
+  
+}
+public Movie(String nam, int rell, String dir,String lead){
+this.nam = nam;
+this.rell = rell;
+this.dir = dir;
+this.lead = lead;
+}
+ public String getNam(){
+ return Nam;
+ }
+public int getRell(){
+return Rell;
+}
+public String getDir(){
+return dir;
+}
+public String getLead(){
+return lead;
+}
+ public void setRell(){
+ this.rell = rell;
+ }
+public void setNam(){
+this.nam = nam;
+}
+public void setDir(){
+this.dir = dir;
+}
+public void set(){
+this.lead = lead;
+}
+public String toString(){
+return "The Movie " + nam + " was released in "+ rell +", the film was directed by "+ dir +", and the leading actor is " + lead +".";
+}
+
+
+package Movie;
+
+public class MovieTester{
+
+public static void main(Strings[] args){
+Movie film1 = new Movie():
+film1.setNam("The GodFather");
+film1.setRell(1972);
+film1.setDir("Francis Ford Coppola");
+film1.setLead(Al Pacinno");
+System.out.println(film1);
+
+}
+}
+
